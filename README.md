@@ -1,2 +1,2 @@
-# pbzip_bash_alpine
+# pbzip_bash_file_alpine
 Minimal alpine image with bash, file and pbzip2
