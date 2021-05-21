@@ -7,7 +7,8 @@ RUN apk add --no-cache \
   bash \
   bash-doc \
   bash-completion \
-  file
+  file \
+  perl
 
 RUN cd /tmp/ && \
   wget -q https://launchpad.net/pbzip2/1.1/1.1.13/+download/pbzip2-1.1.13.tar.gz && \
