@@ -1,2 +1,2 @@
-# pbzip_bash_file_alpine
-Minimal alpine image with bash, file and pbzip2
+# pbzip2_bash_perl_file_alpine
+Minimal alpine image with bash, perl, file and pbzip2
