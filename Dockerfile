@@ -10,6 +10,7 @@ RUN apk add --no-cache \
   bash-completion \
   file \
   unzip \
+  pigz \
   perl
 
 RUN cd /tmp/ && \
