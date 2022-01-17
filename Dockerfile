@@ -2,6 +2,7 @@ FROM alpine:latest
 
 RUN apk add --no-cache \
   bzip2-dev \
+  curl \
   g++ \
   make \
   bash \
