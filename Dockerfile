@@ -18,9 +18,9 @@ RUN cd /tmp/ && \
   make install && \
   rm -r /tmp/pbzip2-1.1.13/
   
-RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-  unzip awscliv2.zip
-  ./aws/install
-  ln -s $(which awscliv2) /usr/bin/aws
+RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" && \
+  unzip awscliv2.zip && \
+  ./aws/install && \
+  ln -s $(which awscliv2) /usr/bin/aws && \
   aws --version
   
