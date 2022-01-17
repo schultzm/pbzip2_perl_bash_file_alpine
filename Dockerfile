@@ -8,6 +8,7 @@ RUN apk add --no-cache \
   bash-doc \
   bash-completion \
   file \
+  unzip \
   perl
 
 RUN cd /tmp/ && \
